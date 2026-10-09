@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<title> Yhanzie's Corner </title>
+<link rel="icon" type="image/x-icon" href="cinnamoroll.png">
+<style>
+    h1 {
+		color: white;
+        font-family: castellar;
+		letter-spacing: 2px;
+		text-align: center;
+		text-shadow: 0 0 2px black;
+}
+       
+    h2 {
+		margin-top: 15px;
+        font-family: georgia, serif;
+		color: #245477;
+		text-align: center;
+	
+}
+		
+    body {
+        margin: 0;
+        background-color: LightSkyBlue;
+		font-family: Arial, sans-serif;
+}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: white;
+		display: flex;
+		justify-content: center;
+}
+
+	ul li a {
+		display: block;
+		color: black;
+		padding: 16px 18px;
+		text-decoration: none;
+}
+
+	ul li a:hover {
+		background-color: LightSkyBlue;
+}
+        
+    .knowme-box {
+		margin: 20px auto;
+		width: 70%;
+		padding: 20px;
+        background-color: white;
+		border-radius: 14px;
+		box-sizing: border-box;
+	}
+	
+	.faves-box {
+		margin: 30px auto;
+		width: 70%;
+		padding: 20px;
+        background-color: white;
+		border-radius: 14px;
+		box-sizing: border-box;
+	}
+	
+
+	p {
+			text-align: justify;
+			width: 90%;
+			margin: 15px auto;
+			line-height: 1.5;
+	}
+
+	div.gallery {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 20px;
+		
+	}		
+
+	div.gallery-item {
+		margin: 10px;
+		border: 2px solid LightSkyBlue;
+		width: 300px;
+		box-sizing: border-box;
+	}
+
+	div.gallery-item img {
+		width: 100%;
+		height: 300px;
+		display: block;
+	}
+	
+	div.gallery-item video {
+		width: 100%;
+		height: 300px;
+		object-fit: contain;
+		display: block;
+	}
+	
+	div.gallery-item audio {
+		width: 100%;
+		display: block;
+	}
+
+	div.gallery-item div.desc {
+		padding: 15px;
+		text-align: center;
+	}
+	
+
+</style>
+</head>
+<body>
+    
+	<nav>
+        <ul>
+          <li><a href="home.html">Home</a>
+          <li><a href="about.html">About Me</a>
+          <li><a href="info.html">Information</a>
+        </ul>
+	</nav>
+	
+<!--  -->
+    <h1>Get to Know Me</h1>
+
+    <div class="knowme-box">
+        <h2>Hey! Call me Yhanzie.</h2>
+        
+		<p>I'm glad to meet you!
+		I am a student from Grade 10-Quartz. I love watching videos
+		on TikTok and spending time with my parents. My dream is to
+		become a flight attendant because my mom has been an OFW
+		since I was a kid. Her experiences inspire me to work hard,
+		achieve my dreams, and to explore different countries around
+		the globe. I know that it might not be easy, but I am willing
+		to study hard and do my best all the time. I want to make my
+		parents proud and give back to them for all their love,
+		sacrifices and support.
+		</p>
+		
+	</div>
+		
+	<div class="faves-box">
+        <h2>My Favorites</h2>
+        
+		
+	<div class="gallery">
+	
+	<div class="gallery-item">
+		<img src="favephoto.jpg" alt="flowers">
+		<div class="desc">Favorite Photo</div>
+	</div>
+	
+	<div class="gallery-item">
+		<img src="amiel.jpg" alt="guitar">
+		<div class="desc">Favorite Song</div>
+		
+		<audio controls loop>
+    <source src="./Sa Bawat Sandali.mp3" type="audio/mpeg">
+	</audio>
+	
+	</div>
+	
+	<div class="gallery-item">
+	<video controls>
+		<source src="favevideo.mp4" type="video/mp4">
+	</video>
+		<div class="desc">Favorite Video</div>
+	</div>
+	</div>
+
+	
+</div>	
+</body>
+</html>
